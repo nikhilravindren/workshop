@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3 id="cont">WELCOME</h3>
+    <button id="click" onclick="onevent();">click here</button>
+    <script>
+        // this is the another form of defining a function
+        onevent = () => {
+            document.getElementById("cont").style.color = "orange";
+            document.getElementById("cont").style.backgroundColor = "black";
+            document.getElementById("cont").style.fontSize = "200%";
+            document.getElementById("click").style.color = "orange";
+        }
+    </script>
+    <h1>WELCOME</h1>
+    <p id="intro">nikhil</p>
+    <p id="c"></p>
+    <script>
+        var myname = document.getElementById("intro").innerHTML;
+        console.log(myname);
+        document.getElementById("c").innerHTML = "my name is " + myname;
+    </script>
+    <button id="mybtn">try it</button>
+    <script>
+        document.getElementById("mybtn").addEventListener("click",function(){
+            alert("hello world!");
+        })
+    </script>
+</body>
+
+</html>

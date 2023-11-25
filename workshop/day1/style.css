@@ -1,0 +1,22 @@
+.data{
+    color: aqua;
+    background-color: brown;
+    border: 4px dotted darkblue;
+}
+.data:hover{
+    color: green;
+    font-size: 150%;
+    font-style: italic;
+}
+.background{
+    height: 1000px;
+    background: white url('workshop.jpg')  no-repeat center;
+    opacity: 10;
+
+}
+.background:visited{
+
+}
+.background:active{
+    
+}
